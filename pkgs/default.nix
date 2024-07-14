@@ -49,6 +49,7 @@
       });
       geth = callPackage ./geth {};
       geth-sealer = callPackage ./geth-sealer {};
+      glados = callPackage ./glados {};
       heimdall = callPackage ./heimdall {};
       lighthouse = callPackageUnstable ./lighthouse {inherit foundry;};
       mcl = callPackage ./mcl {};
@@ -76,6 +77,7 @@
       staking-deposit-cli = callPackage ./staking-deposit-cli {};
       teku = callPackage ./teku {};
       tx-fuzz = callPackage ./tx-fuzz {};
+      trin = callPackage ./trin {};
       vouch = callPackage ./vouch {inherit bls mcl;};
       vouch-unstable = callPackage ./vouch/unstable.nix {inherit bls mcl;};
       vscode-plugin-ackee-blockchain-solidity-tools = callPackage ./ackee-blockchain.solidity-tools {};
